@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '@Components/header'
 
-import './styles.css';
+import './styles.less';
 
 const Main = () => (
     <div className="main-page">
