@@ -1,1 +1,2 @@
 const text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi nesciunt.';
+const headerArray = ["Рассчитать стоимость","Вызвать курьера","Оплатить услуги","Заключить договор", "Предоставить данные"];

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/carousal.less';
+import '../styles/carousel.less';
 import car from '@Assets/images/car.png'
 
 const Carousal = () => (
