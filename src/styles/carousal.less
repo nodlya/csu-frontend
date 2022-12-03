@@ -1,0 +1,54 @@
+@import '../constants/constants.less';
+
+.carousal{
+    height: 100vh-@header-height;
+    color: white;
+    background: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    gap: 1%;
+}
+
+.carousal__left-info{
+    order: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousal__header{
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 800;
+
+    margin-bottom: 2%;
+    order: 0;
+}
+
+.carousal__main-text{
+    font-size: 16px;
+    line-height: 24px;
+
+    order: 1;
+    margin-bottom: 20%;
+}
+
+.carousal__i-will-have-order{
+    background-color: @button-color;
+    color: @background-color;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    height: 52px;
+    width: 240px;
+
+    order: 2;
+}
+
+.carousal__img{
+    order: 1;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '@Assets/images/logo.png';
 import phone from '@Assets/images/phone.png';
 
-import './styles.less';
+import '../styles/header.less';
 
 const Header = () => (
 <header className='header'>
@@ -15,6 +15,7 @@ const Header = () => (
                 <a href='tel:+79090231251' className='header__phone header__light-text'>8 (909) 023-12-51</a>
                 <button className='header__enter-button'>Вход</button>
             </div>
-</header>);
+</header>
+);
 
 export default Header;
