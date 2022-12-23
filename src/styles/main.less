@@ -1,8 +1,32 @@
+@import '../constants/constants.less';
+
+Carousel{
+    margin-bottom: -5px;
+}
+
 .main-page{
     background: radial-gradient(75.49% 75.49% at 61.01% 75.77%, #376A9A 0%, #2B5276 100%);
 }
 
 .main-page__steps{
     background-color: white;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+}
+
+.main-page__steps__title{
+    position: relative;
+    top: 15vh;
+    display: flex;
+    justify-content: center;
+
+    color: @background-color;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.main-page__steps__steps{
+    margin-left: 20vw;
+    margin-right: 20vw;
 }

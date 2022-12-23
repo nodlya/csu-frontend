@@ -1,8 +1,13 @@
 import React from 'react';
 import logo from '@Assets/images/logo.png';
 import phone from '@Assets/images/phone.png';
+import Auth from './Auth';
 
 import '../styles/header.less';
+
+// showAuth(){
+//     Auth.
+// }
 
 const Header = () => (
 <header className='header'>

@@ -1,20 +1,23 @@
 import React from 'react';
 import Header from '@Components/header'
-import Carousal from '@Components/Carousel';
-import Step from '@Components/Step';
+import Carousel from '@Components/Carousel';
 import Steps from '@Components/Steps';
-import ico1 from '@Assets/images/ico1.png';
+import Footer from '@Components/Footer';
+import Auth from '@Components/Auth';
 import '../../styles/main.less';
+import 'reset-css';
 
 const Main = () => (
     <div className="main-page">
         <div className=''>
+            <Auth/>
             <Header/>
-            <Carousal/>
+            <Carousel/>
             <div className='main-page__steps'>
-                <p>5 шагов к заявке</p>
-                {/* <Steps/> */}
+                <p className='main-page__steps__title'>5 шагов к заявке</p>
+                <Steps className='main-page__steps__steps'/>
             </div>
+            <Footer/>
         </div>
     </div>
 );

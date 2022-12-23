@@ -1,10 +1,11 @@
 import React from 'react';
+import './step.less';
 
-const Step = (pic,name) => (
-    <div>
-        <img src={pic} alt='no pic('/>
-        <p>{name}</p>
-        <p>{text}</p>
+const Step = (props) => (
+    <div className='step'>
+        <img className='step__pic' src={props.source} alt='no pic('/>
+        <p className='step__title'>{props.name}</p>
+        <p className='step__text'>Lorem ipsum dolor sit amet, consectetur adipisicing<br/> elitsequi nesciunt.</p> 
     </div>
 );
 
