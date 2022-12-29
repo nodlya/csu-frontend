@@ -1,5 +1,5 @@
 import React from 'react';
-import Step from './Step';
+import Step from '../Step/Step';
 import {titles} from '@Constants/constants';
 import {pics} from '@Constants/constants';
 import './steps.less';
