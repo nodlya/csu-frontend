@@ -6,6 +6,7 @@ const Footer = () => (
     <footer>
     <div className='footer'>
         <img className='footer__logo' src={logo} alt='no pic('/>
+        <div className='footer__lists'>
         <div className='footer__list1'>
             <a>О компании</a>
             <a>Вакансии</a>
@@ -16,6 +17,7 @@ const Footer = () => (
             <a>Доставка из Китая</a>
             <a>Все услуги</a>
             <a>Акции</a>
+        </div>
         </div>
         <div className='footer__contacts'>
             <a href='mailto:manager@uexpress.ru'>manager@uexpress.ru</a>

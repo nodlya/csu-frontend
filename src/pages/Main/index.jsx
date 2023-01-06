@@ -6,7 +6,7 @@ import Footer from '@Components/Footer/Footer';
 import Auth from '@Components/Auth/Auth';
 import LoginPortal from '@Components/LoginPortal/LoginPortal'
 import Modal from '@Components/Modal/Modal';
-import '../../styles/main.less';
+import './index.less';
 import 'reset-css';
 
 const Main = () => {

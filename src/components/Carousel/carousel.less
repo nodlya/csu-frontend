@@ -10,6 +10,28 @@
     justify-content: center;
     gap: 1%;
     margin: 0%;
+
+    
+}
+
+@media(max-width: 960px){
+    .carousel{
+        justify-content: left;
+        height: 70vh;
+    }
+    .carousel__img, .carousel__i-will-have-order{
+        display: none;
+    }
+
+    .carousel__left-info{
+        margin-left: 5vw;
+    }
+}
+
+@media(max-width:480px) {
+    .carousel{
+        height: 60vh;
+    }
 }
 
 .carousel__left-info{
@@ -26,6 +48,11 @@
 
     margin-bottom: 2%;
     order: 0;
+
+    @media(max-width: 480px){
+        font-size: 38px;
+        line-height: 38px;
+    }
 }
 
 .carousel__main-text{
@@ -48,6 +75,10 @@
     width: 240px;
 
     order: 2;
+    @media(max-width: 480px){
+        display: block;
+        width: 90vw;
+    }
 }
 
 .carousel__img{

@@ -1,4 +1,4 @@
-@import '../constants/constants.less';
+@import '../../constants/constants.less';
 
 Carousel{
     margin-bottom: -5px;
@@ -24,9 +24,23 @@ Carousel{
     color: @background-color;
     font-size: 38px;
     font-weight: bolder;
+
+
 }
 
 .main-page__steps__steps{
     margin-left: 20vw;
     margin-right: 20vw;
+    
+}
+
+@media(max-width:960px){
+    .main-page__steps__title{
+        margin-bottom: 10vh;
+    }
+}
+    @media(max-width:480px){
+        .main-page__steps__title{
+        margin-top: -10vh;
+    }    
 }

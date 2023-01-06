@@ -5,11 +5,24 @@
     justify-content: center;
     align-items: center;
     gap: 25px;
+
+    @media(max-width:960px){
+        width: 45%;
+    }
+
+    @media(max-width:480px){
+        width: 80vw;   
+    }
 }
 
 .step__pic{
     height: 50px;
     width: 53px;
+
+    @media(max-width:480px){
+        width: 12vw;
+        height: auto;  
+    }
 }
 
 .step__title{
