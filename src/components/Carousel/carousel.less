@@ -9,9 +9,7 @@
     align-items: center; 
     justify-content: center;
     gap: 1%;
-    margin: 0%;
-
-    
+    margin: 0%;    
 }
 
 @media(max-width: 960px){
@@ -45,7 +43,7 @@
     font-size: 64px;
     line-height: 64px;
     font-weight: 800;
-
+    white-space: pre;
     margin-bottom: 2%;
     order: 0;
 
@@ -58,7 +56,7 @@
 .carousel__main-text{
     font-size: 16px;
     line-height: 24px;
-
+    white-space: pre;
     order: 1;
     margin-bottom: 20%;
 }
@@ -83,4 +81,20 @@
 
 .carousel__img{
     order: 1;
+    height: 500px;
+    position: relative;
+
+    object-fit: cover;
+    overflow: hidden;
+    width: fit-content;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+}
+
+.left{
+    position: absolute;
+    left: 0;
 }
